@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  width: 960px;
+  margin: 0 auto;
+  background-image: url("../images/squares.png");
+  color: #777777;
+}
+
+.name, h2 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display:block;
+}
+
+/* ---Navigation Header--- */
+ul {
+  list-style: none;
+  float: right;
+  width: 300px;
+  margin: 0;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+ }
+
+a:hover {
+  color: rgb(204, 202, 202);
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+a:active {
+  color: #4aaaa5;
+}
+
+.navigation {
+  background: #fff;
+  border-bottom-color: lightgray;
+  border-bottom-style: solid;
+}
+
+.name {
+  padding: 20px;
+  color: #fff;
+  background: #4aaaa5;
+  float: left;
+  margin: 0;
+  line-height: 38px;
+}
+
+.navbar {
+  float: left;
+  margin: 30px 15px;
+}
+
+
+/* ---Main content--- */
+.container {
+  background: #fff;
+  border-color: #dddddd;
+  padding: 10px;
+  position: relative;
+  top: 30px;
+}
+h2{
+  color: #4aaaa5;
+}
+h2 {
+  padding-bottom: 20px;
+  border-bottom-style: groove;
+  border-bottom-color: lightslategray;
+}
+h2, .biopic, .biop {
+  margin: 15px;
+}
+
+
+/* ---About Me Page--- */
+.biopic {
+  float:left;
+}
+#firstp {
+  float: left;
+  width: 700px;
+}
+
+
+/* ---Contact--- */
+fieldset {
+  border-style: none;
+  margin: 15px;
+  padding: 0;
+}
+label {
+  line-height: 1.7;
+}
+input, textarea {
+  display: block;
+  width: 100%;
+}
+.submitbtn {
+  margin: 5px 15px;
+  width: 75px;
+  background-color: #4aaaa5;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border-style: solid;
+}
+.submitbtn:hover {
+  color: lightcyan;
+  border-style: solid;
+  border-color: #4aaaa5;
+}
+.submitbtn:active {
+  background: #fff;
+  color: #4aaaa5;
+}
+
+/* ---Portfolio--- */
+img {
+  margin: 15px;
+}
