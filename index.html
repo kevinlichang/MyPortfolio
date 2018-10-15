@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <title>Portfolio of Kevin Chang</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -14,54 +14,94 @@
 <body>
   <div class="container-fluid">
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        </div>
-      </nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio-section">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
   </div>
-  <div class="container-fluid">
 
-    <div class="section text-center" id="header">
-      <img class="bio-pic" src="https://via.placeholder.com/200x200" alt="Kevin Chang"/>
+  <div class="section text-center" id="home-section">
+    <div class="container-fluid">
+
+      <img class="bio-pic" src="https://via.placeholder.com/200x200" alt="Kevin Chang" />
 
       <h1>Kevin Chang</h1>
 
       <h4>Full-Stack Developer</h4>
-
     </div>
-
-    <div class="section" id="portfolio">
-      <div class="row justify-content-center">
-        <h2>Portfolio</h2>
-      </div>
-
-      <div class="row">
-        
-
-      </div>
-
-
-    </div>
-
-
-
-
-
-
   </div>
+
+  <div class="section text-white" id="portfolio-section">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <h2 class="head-titles">Portfolio</h2>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="portfolio-item col-12 col-sm-5 m-4">
+          <img class="img-fluid portfolio-img" src="assets/images/quisine.PNG">
+          <div class="portfolio-title">Quisine</div>
+
+        </div>
+        <div class="portfolio-item col-12 col-sm-5 m-4">
+          <img class="img-fluid portfolio-img" src="assets/images/liri.PNG">
+          <div class="portfolio-title">LIRI BOT</div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section" id="contact-section">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <h2 class="head-titles">Contact Me</h2>
+      </div>
+
+      <form>
+        <div class="form-group">
+          <label for="name-input">Name</label>
+          <input type="text" class="form-control" id="name-input" placeholder="Enter your name">
+
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
 </body>
 
 </html>
