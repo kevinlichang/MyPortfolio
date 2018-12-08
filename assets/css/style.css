@@ -13,8 +13,8 @@ h1 {
 }
 
 .section {
-  height: 100vh;
-  padding-top: 80px;
+  min-height: 100vh;
+  padding-top: 70px;
 }
 
 
@@ -63,3 +63,9 @@ h1 {
   opacity: 1;
 }
 
+/* ---------------- Footer --------------------- */
+footer {
+  color: #8f9296;
+  padding: 45px;
+	margin-top: 80px;
+}
