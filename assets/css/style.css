@@ -3,6 +3,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .head-titles {
   font-family: 'Playfair Display', serif;
   font-size: 3.2em;
@@ -62,6 +66,10 @@ h1 {
 .portfolio-title {
   opacity: 1;
 }
+
+
+
+/* --------------- Contact Page ---------------- */
 
 /* ---------------- Footer --------------------- */
 footer {
