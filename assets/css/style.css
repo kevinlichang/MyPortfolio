@@ -46,6 +46,7 @@ h1 {
   bottom: 1.5em;
 
   text-align: center;
+  font-size: 1.8em;
   width: 100%;
   background: #505050;
   color: white;
@@ -67,10 +68,14 @@ h1 {
   opacity: 1;
 }
 
+.modal {
+  color: #505050;
+}
+
 
 /* --------------- Contact Page ---------------- */
 #contact-section {
-  background: #fff2e7;;
+  background: #fff6da;;
 }
 .contact-link {
   color: inherit;
