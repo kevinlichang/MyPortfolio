@@ -68,8 +68,14 @@ h1 {
 }
 
 
-
 /* --------------- Contact Page ---------------- */
+.contact-link {
+  color: inherit;
+}
+
+/* .icon-sub {
+  font-size: 1.5em;
+} */
 
 /* ---------------- Footer --------------------- */
 footer {
